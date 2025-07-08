@@ -1,0 +1,146 @@
+{
+   <insert a suppression name here>
+   Memcheck:Addr1
+   fun:strcpy
+   fun:parse_command
+   fun:main
+}
+
+{
+   <insert a suppression name here>
+   Memcheck:Addr1
+   fun:strcmp
+   fun:execute_command
+   fun:main
+}
+
+{
+   <insert a suppression name here>
+   Memcheck:Param
+   write(buf)
+   fun:write
+   fun:pthread_create@@GLIBC_2.1
+   fun:execute_command
+   fun:main
+}
+
+{
+   <insert a suppression name here>
+   Memcheck:Param
+   write(buf)
+   fun:write
+   fun:execute_command
+   fun:main
+}
+
+{
+   <insert a suppression name here>
+   Memcheck:Addr1
+   fun:strcmp
+   fun:execute_command
+   fun:main
+}
+
+{
+   <insert a suppression name here>
+   Memcheck:Param
+   write(buf)
+   fun:write
+   fun:execute_command
+   fun:main
+}
+
+{
+   <insert a suppression name here>
+   Memcheck:Addr1
+   fun:strcmp
+   fun:execute_command
+   fun:main
+}
+
+{
+   <insert a suppression name here>
+   Memcheck:Addr1
+   fun:__strtol_internal
+   fun:atoi
+   fun:execute_command
+   fun:main
+}
+
+{
+   <insert a suppression name here>
+   Memcheck:Param
+   write(buf)
+   fun:write
+   fun:execute_command
+   fun:main
+}
+
+{
+   <insert a suppression name here>
+   Memcheck:Addr1
+   fun:strcmp
+   fun:execute_command
+   fun:main
+}
+
+{
+   <insert a suppression name here>
+   Memcheck:Addr1
+   fun:__strtol_internal
+   fun:atoi
+   fun:execute_command
+   fun:main
+}
+
+{
+   <insert a suppression name here>
+   Memcheck:Param
+   write(buf)
+   fun:write
+   fun:execute_command
+   fun:main
+}
+
+{
+   <insert a suppression name here>
+   Memcheck:Addr1
+   fun:strcmp
+   fun:execute_command
+   fun:main
+}
+
+{
+   <insert a suppression name here>
+   Memcheck:Param
+   write(buf)
+   fun:write
+   fun:execute_command
+   fun:main
+}
+
+{
+   <insert a suppression name here>
+   Memcheck:Addr1
+   fun:strcmp
+   fun:execute_command
+   fun:main
+}
+
+{
+   <insert a suppression name here>
+   Memcheck:Param
+   write(buf)
+   fun:write
+   fun:execute_command
+   fun:main
+}
+
+{
+   <insert a suppression name here>
+   Memcheck:Param
+   write(buf)
+   fun:write
+   fun:exit
+   fun:(below main)
+}
