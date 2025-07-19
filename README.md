@@ -1,5 +1,6 @@
 # OS-Linux-Assignments
 My solutions for the **Operating Systems (203-2110)** course, University of Haifa.
+> **Grades:** 100 / 100 on every homework 
 
 This repository contains **four self-contained homework projects** that build practical, low-level OS skills – from theory questions and a mini-shell to a kernel-space driver.
 
